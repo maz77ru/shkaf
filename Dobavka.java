@@ -357,5 +357,9 @@ public class Dobavka {
         }
         return revers;
     }
+	public String Kol_navesov(){
+		String naves ="";
+		return naves;
+	}
 
 }
