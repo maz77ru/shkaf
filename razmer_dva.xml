@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/karty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="h"
+            style="@style/bukva"/>
+
+        <EditText
+            android:id="@+id/haa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/t_aaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="@style/bukva"
+            android:text="a" />
+
+        <EditText
+            android:id="@+id/aaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="@style/bukva"
+            android:text="c" />
+
+        <EditText
+            android:id="@+id/caa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="@style/bukva"
+            android:text="b" />
+
+        <EditText
+            android:id="@+id/baa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="@style/bukva"
+            android:text="d" />
+
+        <EditText
+            android:id="@+id/daa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/polki" />
+
+        <EditText
+            android:id="@+id/polkaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:ems="3"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/pol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="@string/polki"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/polkab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:inputType="numberDecimal"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/vis_stenok" />
+
+        <EditText
+            android:id="@+id/v_fa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="3"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+
+    <Button
+       android:onClick="rewer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ok" />
+</LinearLayout>
